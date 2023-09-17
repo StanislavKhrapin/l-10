@@ -16,16 +16,17 @@ body {
     background-color: #C4C4C4;
 }
 
-.float-section {
+.float-section-1,
+.float-section-2,
+.float-section-3 {
     background-color: #E6E6E6;
     width: 1000px;
     margin-bottom: 50px;
     font-size: 0;
 }
 
-.float-section:nth-child(3) .big {
+.float-section-3 {
     margin: 0px;
-    float: left;
 }
 
 .big {
@@ -97,4 +98,8 @@ body {
 
 .float-box-3-4{
     margin-left: 15px;
+}
+
+.float-section-3 .big {
+    float: left;
 }
