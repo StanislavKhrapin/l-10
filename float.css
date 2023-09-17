@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+.wrapper {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #C4C4C4;
+    padding: 50px;
+    background-color: #C4C4C4;
+}
+
+.float-section {
+    background-color: #E6E6E6;
+    width: 1000px;
+    margin-bottom: 50px;
+    font-size: 0;
+}
+
+.float-section:nth-child(3) .big {
+    margin: 0px;
+    float: left;
+}
+
+.big {
+    padding: 62.5px 62.5px;
+    color: #FFFFFF;
+    background-color: #FC8F8F;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.small {
+    padding: 31.25px 31.25px;
+    color: #FFFFFF;
+    background-color: #FC8F8F;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.float-box-1-1 {
+    float: left;
+}
+
+.float-box-1-2 {
+    float: right;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.float-box-2-1 {
+    float: left;
+}
+
+.smalls {
+    float: right;
+}
+
+.smalls .small {
+    float: left;
+    margin-left: 15px;
+}
+
+.smalls .small:first-of-type {
+    margin: 0;
+}
+
+.bigs-1 {
+    float: left;
+}
+
+.bigs-2 {
+    float: right;
+}
+
+.float-box-3-1{
+    margin-right: 15px;
+}
+
+.float-box-3-4{
+    margin-left: 15px;
+}
